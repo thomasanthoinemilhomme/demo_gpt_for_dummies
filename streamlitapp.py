@@ -32,4 +32,4 @@ user_input = st.text_input("Please enter your prompt:")
 # Button to process the input
 if st.button("Submit"):
     # Response to be displayed after submission
-    st.write("I'm broke I can't afford OpenAI API, please hire me ;)")
+    st.write("as it appears it seems like you are broke and you can't afford OpenAI API, please get a job")
