@@ -36,7 +36,7 @@ if st.button("Submit"):
 
     # Ask user if they want detailed guide on obtaining OpenAI API
     if st.button("why not?"):
-        detailed_guide = st.radio("Do you want detailed guidance?", ("Yes", "No"))
+        (detailed_guide = st.radio("Do you want detailed guidance?", ("Yes", "No"))
 
     # Check the indentation level here; it should be inside the button's if block
         if detailed_guide == 'Yes':
@@ -48,7 +48,7 @@ if st.button("Submit"):
                 - Competitions or Hackathons: Participating in hackathons or competitions sponsored by OpenAI or its partners can sometimes offer free API access as part of the event.
                 - Personal Use or Small Scale Testing: If your usage is minimal, the cost might be low enough to be feasible within the free credit provided by OpenAI upon account creation, or the costs might be manageable for small-scale testing.
                 For the most current and detailed information, I recommend checking OpenAI's official website or contacting their support directly. They may have the latest updates on any possible free access or trial offers.
-            """)
+            """))
 
     # Display detailed guide if user selects "Yes"
    
