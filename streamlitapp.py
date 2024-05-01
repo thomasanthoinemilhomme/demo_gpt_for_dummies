@@ -36,7 +36,7 @@ if st.button("Submit"):
 
     # Ask user if they want detailed guide on obtaining OpenAI API
     if st.button("why not?"):
-    detailed_guide = st.radio("Do you want detailed guidance?", ("Yes", "No"))
+        detailed_guide = st.radio("Do you want detailed guidance?", ("Yes", "No"))
 
     # Check the indentation level here; it should be inside the button's if block
     if detailed_guide == 'Yes':
