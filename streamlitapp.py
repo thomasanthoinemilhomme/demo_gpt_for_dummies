@@ -39,7 +39,7 @@ if st.button("Submit"):
         "Do you want me to guide you through in detail about how to get API from OpenAI?",
         ('Yes', 'No, I\'m alright'),
         index=1  
-         if index=0:
+         if detailed_guide=='Yes':
             st.write("""
                 There isn't an official way to obtain a free API token for using OpenAI's ChatGPT as part of a service or product integration. OpenAI typically charges for API usage based on the number of tokens processed, which includes both the input and output characters.
                 Here are a few possibilities you might explore depending on your needs:
